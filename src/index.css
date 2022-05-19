@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
 }
 body {
@@ -10,10 +12,18 @@ body {
   background: #dfdfdf;
   color: #333;
 }
-h1,h2,h3,p {
+.App {
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
   margin: 0;
 }
-input, textarea {
+input,
+textarea {
   color: #333;
   padding: 8px;
   font-size: 1em;
@@ -29,7 +39,8 @@ input, textarea {
   margin: 40px auto;
   color: #333;
 }
-.loading, .error {
+.loading,
+.error {
   text-align: center;
   margin: 40px auto;
 }
