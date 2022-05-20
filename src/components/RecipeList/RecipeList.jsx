@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./recipeList.css";
 
-const RecipeList = ({ recipes }) => {
+const RecipeList = ({ recipes, uson }) => {
   return (
     <div className="recipe-list">
       {recipes.map((recipe) => (
@@ -13,6 +13,7 @@ const RecipeList = ({ recipes }) => {
           <Link to={`/recipe/${recipe.id}`}>Cook it</Link>
         </div>
       ))}
+      <div>{uson.age}</div>
     </div>
   );
 };

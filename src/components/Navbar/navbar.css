@@ -26,3 +26,12 @@
   background: #fff;
   color: #333;
 }
+
+label {
+  display: flex;
+  justify-content: end;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
