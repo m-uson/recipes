@@ -15,7 +15,7 @@
   position: relative;
 }
 .recipe-list .card.dark {
-  background: gray;
+  background: rgb(33, 33, 33);
 }
 .recipe-list .card:hover {
   transform: translateY(-10px);
@@ -28,6 +28,7 @@
 .recipe-list .card.dark p,
 .recipe-list .card.dark h3 {
   color: #ffffff;
+  font-weight: 400;
 }
 .recipe-list .card p {
   color: #999;
@@ -41,10 +42,11 @@
 }
 .recipe-list .card a,
 button {
-  color: #555;
+  color: #000;
   text-decoration: none;
   display: block;
   background: #e2e2e2;
+  font-weight: 600;
   font-size: 0.9em;
   text-align: center;
   width: 120px;

@@ -5,9 +5,10 @@
   background: #fff;
   padding: 40px;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 .recipe.dark {
-  background: gray;
+  background: rgb(33, 33, 33);
 }
 .recipe.dark ul,
 .recipe.dark h2,

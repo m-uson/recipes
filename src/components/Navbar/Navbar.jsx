@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import useTheme from "../../hooks/useTheme";
 import SearchBar from "../SearchBar/SearchBar";
 import "./navbar.css";
 
 const Navbar = () => {
+  const { color } = useTheme();
+
   return (
     <>
-      <div className="navbar">
+      <div className="navbar" style={{ backgroundColor: color }}>
         <nav>
           <Link to="/" className="brand">
             <h1>Recipe</h1>
@@ -15,10 +18,6 @@ const Navbar = () => {
           <Link to="/create">Create Recipe</Link>
         </nav>
       </div>
-      <label>
-        <input type="checkbox" />
-        <span>Dark mode</span>
-      </label>
     </>
   );
 };
