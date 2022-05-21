@@ -36,14 +36,18 @@ textarea {
   display: block;
   width: 100%;
   box-sizing: border-box;
+  height: 50px;
 }
-.page-title {
-  text-align: center;
-  margin: 40px auto;
-  color: #333;
-}
+
 .loading,
 .error {
   text-align: center;
   margin: 40px auto;
+}
+
+label {
+  margin-bottom: 25px;
+}
+label:last-child {
+  margin: 0;
 }
